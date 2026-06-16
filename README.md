@@ -84,6 +84,7 @@ To insert real office blocks, pass `block_name_or_path` to `cad_place_furniture`
 ## Documentation
 
 - Tool reference: [docs/TOOL_REFERENCE.md](docs/TOOL_REFERENCE.md)
+- Chinese quickstart: [docs/QUICKSTART_ZH.md](docs/QUICKSTART_ZH.md)
 - Publish guide: [docs/PUBLISH_TO_GITHUB.md](docs/PUBLISH_TO_GITHUB.md)
 - Contribution guide: [CONTRIBUTING.md](CONTRIBUTING.md)
 
