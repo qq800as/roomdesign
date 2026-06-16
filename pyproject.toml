@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "autocad-interior-mcp"
+version = "0.1.0"
+description = "MCP server for AutoCAD interior design workflows"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "mcp>=1.9.0",
+  "pywin32>=306",
+  "pydantic>=2.7.0",
+]
+
+[project.scripts]
+autocad-interior-mcp = "autocad_interior_mcp.server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "autocad-interior": {
+      "command": "C:\\Users\\31340\\workspace\\autocad-interior-mcp\\.venv\\Scripts\\autocad-interior-mcp.exe",
+      "args": []
+    }
+  }
+}
